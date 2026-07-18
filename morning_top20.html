@@ -178,7 +178,7 @@
   <button class="tab-btn " onclick="switchTab('tab_prime', this)">🔵 プライム</button>
   <button class="tab-btn " onclick="switchTab('tab_growth', this)">🟢 グロース</button>
   <button class="tab-btn " onclick="switchTab('tab_standard', this)">🟡 スタンダード</button>
-  <div id="refresh-box">2026-07-18 11:44&nbsp;<span id="countdown"></span></div>
+  <div id="refresh-box">2026-07-18 12:05&nbsp;<span id="countdown"></span></div>
   <button id="reload-btn" onclick="location.reload()">再読込</button>
 </div>
 
@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 
 (function() {
-  var BUILD_TIME = "2026-07-18 11:44";
+  var BUILD_TIME = "2026-07-18 12:05";
   function checkUpdate() {
     fetch(location.href, {cache: 'no-store'})
       .then(function(r) { return r.text(); })
